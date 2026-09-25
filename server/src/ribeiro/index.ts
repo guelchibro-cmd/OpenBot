@@ -12,3 +12,5 @@ export {
   formatLeaConfirmation,
 } from "./confirmation";
 export type { LeaConfirmationRequest } from "./confirmation";
+export { runThroughLeaGate } from "./tool-gate";
+export type { LeaToolGateResult } from "./tool-gate";
